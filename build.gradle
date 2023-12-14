@@ -16,6 +16,7 @@ repositories {
 }
 
 dependencies {
+	implementation 'io.github.cdimascio:java-dotenv:5.2.2'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'com.lilittlecat:chatgpt:1.0.3'
